@@ -1,110 +1,26 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #b3e5fc;  
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
- 
-  .header {
-    background-color: #cddc39;  
-    padding: 50px;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-
-  .main {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 20px 0;
-  }
-  
-  .item {
-    background-color: #00bcd4;  
-    padding: 20px;
-    flex: 1; 
-    font-size: 1.2em;
-    color: #fff;
-    border-radius: 4px;
-  }
-  
-  /* Footer */
-  .footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .footer-item {
-    background-color: #e0e0e0;  
-    text-align: center;
-    font-size: 1em;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  @media (min-width: 400px) {
-    .main {
-        flex-direction: row;  
-        gap: 10px;
-        width: 100%;  
-        height: 150px;
-    }
-
-    .item {
-        flex-direction: column; 
-    }
- 
-    .footer {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    .footer-item {
-      width: 1000px; 
-      height: 150px;
-    }
-  }
-  
-  
-  @media (max-width: 400px) {
-    .header {
-        background-color: #cddc39;  
-        padding: 20px;
-        text-align: center;
-        font-size: 1.5em;
-        font-weight: bold;
-      }
-     
-    .item {
-        flex-direction: column;  
-        
-    }
-    .footer {
-      display: grid;
-      grid-template-columns: 1fr 1fr;  
-      gap: 10px;
-    }
-  
-    .footer-item {
-        width: 100%;  
-        height: 50px;  
-        background-color: #e0e0e0; 
-        border-radius: 4px;  
-    }
-  }
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header"> </div>
+    <div class="main">
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+    </div>
+    <div class="footer">
+        <div class="footer-item">  </div>
+        <div class="footer-item"> </div>
+        <div class="footer-item"> </div>
+        <div class="footer-item"> </div>
+      </div>
+      
+  </div>
+</body>
+</html>
